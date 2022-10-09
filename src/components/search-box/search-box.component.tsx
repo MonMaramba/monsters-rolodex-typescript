@@ -22,7 +22,7 @@ type SearchBoxProps = {
 
 const SearchBox = ({className, placeholder, onChangeHandler }: SearchBoxProps) => (
   <input
-    className={'search-box ${className}'}
+    className={`search-box ${className}`}
     type='search'
     placeholder={placeholder}
     onChange={onChangeHandler}
